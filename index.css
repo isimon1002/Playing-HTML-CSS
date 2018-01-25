@@ -1,0 +1,23 @@
+.collumn1{
+  float:left;
+  background-color: red;
+  height: 100vh;
+  width: 31%;
+  margin: 1%;
+}
+
+.collumn2{
+  float:left;
+  background-color: orange;
+  height: 100vh;
+  width: 31%;
+  margin: 1%;
+}
+
+.collumn3{
+  float:left;
+  background-color: yellow;
+  height: 100vh;
+  width: 31%;
+  margin: 1%;
+}
