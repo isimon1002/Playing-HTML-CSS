@@ -1,4 +1,4 @@
-.collumn1{
+#collumn1{
   float:left;
   background-color: red;
   height: 100vh;
@@ -6,7 +6,7 @@
   margin: 1%;
 }
 
-.collumn2{
+#collumn2{
   float:left;
   background-color: orange;
   height: 100vh;
@@ -14,7 +14,7 @@
   margin: 1%;
 }
 
-.collumn3{
+#collumn3{
   float:left;
   background-color: yellow;
   height: 100vh;
