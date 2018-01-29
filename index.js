@@ -1,14 +1,14 @@
 var changeColor = function(){
-  var sel1 = document.getElementById('background').value;
-  document.getElementById('collumn1').style.backgroundColor = sel1;
+  var $color = $('#background option:selected').text();
+  $('#collumn1').css("background-color", $color);
 }
 
 var changeColor2 = function(){
-  var sel1 = document.getElementById('background2').value;
-  document.getElementById('collumn2').style.backgroundColor = sel1;
+  var $color = $('#background2 option:selected').text();
+  $('#collumn2').css("background-color", $color);
 }
 
 var changeColor3 = function(){
-  var sel1 = document.getElementById('background3').value;
-  document.getElementById('collumn3').style.backgroundColor = sel1;
+  var $color = $('#background3 option:selected').text();
+  $('#collumn3').css("background-color", $color);
 }
